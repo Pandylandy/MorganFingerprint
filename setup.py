@@ -30,7 +30,7 @@ setup(
     packages=find_packages(),
     url='https://github.com/dcloudf/MorganFingerprint',
     license='LGPLv3',
-    python_requires='>=3.7.0',
+    python_requires='>=3.6.0',
     entry_points={'console_scripts': []},
     install_requires=['CGRtools[mrv]>=4.0,<4.1', 'scikit-learn>=0.23', 'numpy>=1.18'],
     extras_require={},
